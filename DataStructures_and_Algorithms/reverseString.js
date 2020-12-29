@@ -12,13 +12,11 @@
 //     arr.reverse();
 //     return arr.join('');
 // }
-// module.exports = reverse;
 
 // //-------------------------------------------with one liner (Array.prototype.reverse())------------------------------------------//
 // function reverse(str) {
 //     return str.split('').reverse().join('');
 // }
-// module.exports = reverse;
 
 //--------------------------------------------------Second Way (with for loop)---------------------------------------------------//
 function reverse(str) {
@@ -30,10 +28,8 @@ function reverse(str) {
 
     return reversed;
 }
-module.exports = reverse;
 
 // //--------------------------------------------------Third Way(with .reduce)---------------------------------------------------//
 // function reverse(str) {
 //     return str.split('').reduce((rev, char) => char + rev, '');  
 // }
-// module.exports = reverse;

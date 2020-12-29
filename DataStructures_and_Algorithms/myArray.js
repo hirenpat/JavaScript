@@ -1,3 +1,5 @@
+//Create Your Own Array
+
 class MyArray{
     constructor(){
         this.length = 0;
@@ -34,6 +36,7 @@ class MyArray{
         this.length--;
     }
 }
+
 const newArray = new MyArray();
 newArray.push('Hey');
 newArray.push('You');
